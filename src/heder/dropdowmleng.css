@@ -1,0 +1,40 @@
+Dropdown{
+    height: 120px;
+}
+.dropdown-buton{
+    background: linear-gradient(-45deg, #6362D7, #FF8FE2);
+    border: none;
+    padding: 4px 10px;
+    border-radius: 16px;
+    color: white;
+    font-size: 16px;
+}
+.dropdown-state{
+    position: relative;
+}
+
+.dropdown-hidden{
+    position: absolute;
+    top: 40px;
+}
+.dropdown-hidden div{
+    width: 148px;
+    margin-bottom: 2px;
+    padding: 2px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 10px;
+    border: 1px solid;
+}
+
+.dropdown-hidden div a{
+    width: 100%;
+    color: #906FDA;
+    display: block;
+    margin: 0;
+
+}
+.dropdown-hidden div a:hover{
+    text-decoration: none;
+}
+

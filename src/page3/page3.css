@@ -1,0 +1,49 @@
+.page3 h1 {
+    font-size: 36px;
+    text-align: center;
+    font-family: 'Poppins', 'Regular', sans-serif;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+.page3 .ops{
+    font-family: "Poppins Regular", sans-serif;
+    font-size: 15px;
+    color: #555555;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.page3 video{
+    justify-content: center;
+}
+.page3 .step{
+    font-family: "Poppins Regular", sans-serif;
+    font-size: 36px;
+    color: #222222;
+    margin-top: 70px;
+}
+.page3 .step2 {
+    font-size: 36px;
+    font-family: Poppins, sans-serif;
+    font-weight: 600;
+}
+.page3 .mb-3 .btn{
+    border-color: #9D60EB;
+}
+.map{
+    width: 1168px;
+    height: 550px;
+    background-color: black;
+    margin-bottom: 50px;
+}
+.clip img{
+    width: 592px;
+}
+.step2 {
+    text-align: right;
+}
+.searcH{
+    width: 400px;
+}
+.btn-success{
+    background-color: #906FDA;
+}

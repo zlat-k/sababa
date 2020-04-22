@@ -1,0 +1,71 @@
+.page7 .btn-primary{
+   background: linear-gradient(to right, #6362D7, #FF8FE2);
+}
+.fa-bookmark{
+    color: #9D60EB;
+    font-size: 86px;
+    margin-top: 30px;
+}
+.page7 h1{
+    margin-top: 30px;
+}
+.page7 h6{
+    margin-top: 30px;
+    font-size: 15px;
+    color: #999;
+}
+
+.topImg{
+    width: 740px;
+    height: 420px;
+    margin-bottom: 50px;
+}
+.punct{
+    color: #9D60EB;
+}
+.page7 h5{
+    color: #999999;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    font-size: 24px;
+    font-style:italic;
+    border-left: 2px solid #A274DB;
+    margin-left: 60px;
+    padding-left: 10px;
+}
+.page7 li{
+    color:#9D60EB;
+}
+.page7 li>span{
+    color: #222222;
+}
+.comments{
+    border-left: 2px solid #A274DB;
+    margin-left: 60px;
+    padding-left: 40px;
+    margin-bottom: 60px;
+
+}
+.comment1{
+    margin-left: 40px;
+    font-weight: bolder;
+}
+.fa-share{
+    font-size: 15px;
+}
+.page7 button{
+    border-color: #9D60EB;
+    margin:20px 40px;
+}
+.s9{
+    color: #9D60EB;
+}
+.s555{
+    color: #555555;
+}
+.s777{
+    color: #777777;
+}
+.pun{
+    margin-top: 30px;
+}

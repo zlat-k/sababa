@@ -1,0 +1,131 @@
+.body {
+    margin: 0;
+    font-family: 'Poppins';
+    box-sizing: border-box;
+    display: block;
+}
+
+.noStyle{
+    margin: 0 30px !important;
+    width: 240px;
+    height: 120px;
+    padding-bottom: 30px;
+}
+
+.noStyle img{
+    max-width: 100%;
+}
+
+.header {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 30px;
+}
+
+/*.header>img{*/
+/*    margin: 0 30px;*/
+/*    width:240px ;*/
+/*    height: 120px;*/
+/*    padding-bottom: 30px;*/
+/*}*/
+
+.header > a {
+    text-align: left;
+    font-size: 14px;
+    letter-spacing: 0;
+    color: #555555;
+    opacity: 1;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.header > a:active, .header > a:hover {
+    color: #8E6FDA;
+    text-decoration: none;
+}
+
+
+
+#search {
+    border: 1px solid #C6BAF8;
+    border-radius: 4px;
+    width: 270px;
+    height: 42px;
+    margin-right: 20px;
+    padding-left: 15px;
+}
+
+
+.but{
+    text-align: center;
+    letter-spacing: 0;
+    color: #9D60EB;
+    text-transform: capitalize;
+    opacity: 1;
+    margin: 48.3px 0px;
+    /*margin-left: 36px;*/
+    /*margin-top: 48.3px;*/
+    width: 131px;
+    height: 42px;
+    background: none;
+    font-size: 14px;
+    border: 1px solid #C6BAF8;
+    border-radius: 4px;
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px){
+    .header{
+        margin: 15px 2.5%;
+    }
+
+}
+@media screen and (min-width: 800px) and (max-width: 992px){
+    .header{
+        margin: 0 2.5%;
+    }
+    #search{
+        width: 135px;
+        margin: 48.37px  25px;
+    }
+    .but{
+        width: 100px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .header{
+        margin: 0 2.5%;
+    }
+    #search, .but{
+        width: 60%;
+        margin:20px 150px;
+    }
+
+}
+
+@media screen and (max-width: 425px ){
+    .header>img{
+        margin: 10px 20%;
+    }
+    .header>a{
+        margin-top: 10px;
+    }
+
+    #search, .but{
+        width: 80%;
+        margin:10px 10%;
+    }
+}
+
+
+.ui.button{
+    color: #A274DB;
+    height: 35px;
+}
+.ui.search.dropdown>.text{
+    margin: 0;
+    padding-bottom: 10px;
+}

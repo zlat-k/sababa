@@ -1,0 +1,46 @@
+.welcome{
+    font-family: Poppins , sans-serif;
+    font-weight: 700;
+}
+h1{
+    text-align: center;
+    font-size: 46px;
+}
+.titleMain{
+    padding-top:30px;
+}
+h6{
+    font-family:Poppins Regular, sans-serif;
+    font-size: 14px;
+    text-align: center;
+    color: #555555;
+
+}
+.h6Main h6{
+    padding-top: 10px;
+    line-height: 1.5;
+}
+.buttons{
+    padding-top: 50px;
+    justify-content:center;
+}
+.buttons button{
+    width: 150px;
+    height: 45px;
+
+}
+.btn1{
+    margin-right: 40px;
+    color: white;
+    background: linear-gradient(-45deg, #6362D7, #FF8FE2);
+    border-color:#906FDA;
+}
+.btn2{
+    margin-left: 40px;
+    background-color: white;
+    color:#9D60EB;
+    border-color: #9D60EB;
+}
+.road img{
+    width: 100%;
+}

@@ -1,0 +1,33 @@
+.roundhref {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: linear-gradient(45deg, #6362D7, #FF8FE2);
+    position: relative;
+}
+
+.fab {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+footer li {
+    list-style-type: none;
+    margin-top: 5px;
+    color: #777777;
+}
+footer ul{
+    padding-left: 0;
+}
+footer p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+.follow{
+    font-weight: 700;
+    color: #222222;
+}

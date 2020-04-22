@@ -1,0 +1,72 @@
+.page4 h1 {
+    font-size: 36px;
+    text-align: center;
+    font-family: 'Poppins', 'Regular', sans-serif;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+.page4 .ops{
+    font-family: "Poppins Regular", sans-serif;
+    font-size: 15px;
+    color: #555555;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.page4 video{
+    justify-content: center;
+}
+.page4 .step{
+    font-family: "Poppins Regular", sans-serif;
+    font-size: 36px;
+    color: #222222;
+    margin-top: 70px;
+}
+.page4 .step2 {
+    font-size: 36px;
+    font-family: Poppins, sans-serif;
+    font-weight: 600;
+}
+.page4 .mb-3 .btn{
+    border-color: #9D60EB;
+}
+.map{
+    width: 1168px;
+    height: 550px;
+    background-color: black;
+    margin-bottom: 50px;
+}
+.clip img{
+    width: 592px;
+}
+.step2 {
+    text-align: right;
+}
+.searcH{
+    width: 400px;
+}
+.btn-success{
+    background-color: #906FDA;
+}
+.page4 h6{
+    font-size: 20px;
+    font-family: Poppins, sans-serif;
+    font-weight: 600;
+
+}
+.page4 p{
+    font-size: 15px;
+    color: #888;
+    margin-bottom: 2px;
+}
+.page4 i{
+    margin-right: 10px;
+    color: #9D60EB;
+    font-size: 18px;
+}
+.page4 .lists{
+    margin-bottom: 20px;
+}
+.page4 hr{
+    height: 2px;
+    background-color: #A274DB;
+}
