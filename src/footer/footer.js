@@ -4,7 +4,7 @@ import {Link} from "react-router-dom";
 class Footer extends React.Component{
     render() {
         return (
-            <footer>
+            <footer className="footer">
                 <div className="container">
                     <div className="row footerList">
                         <div className="col-sm-12 col-md-6 col-lg-3">
@@ -25,8 +25,8 @@ class Footer extends React.Component{
                                 Our Company
                             </p>
                             <ul>
-                                <Link to={'/page1'}><li>About</li></Link>
-                                <Link to={'/page6'}><li>Blog</li></Link>
+                                <Link to={'/about-short'}><li>About</li></Link>
+                                <Link to={'/blog'}><li>Blog</li></Link>
                             </ul>
                         </div>
                         <div className="col-sm-12 col-md-6 col-lg-3">

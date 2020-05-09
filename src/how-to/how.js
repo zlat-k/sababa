@@ -1,9 +1,48 @@
 import React from "react";
-import './page3.css'
+import './how.css'
+import {withRouter} from "react-router-dom";
+import {url} from "../fetch";
 
-class Page3 extends React.Component{
+class How extends React.Component{
+
+    constructor(props) {
+        super(props);
+        this.state = {
+            data:undefined
+        }
+    }
+
+    componentDidUpdate(prevProps, prevState, snapshot) {
+        if (prevProps.match.params.lang !== this.props.match.params.lang) {
+            this.getData();
+        }
+    }
+
+    componentDidMount() {
+        this.getData();
+    }
+
+    getData = () => {
+        fetch(`${url}/${this.props.match.params.lang}`)
+            .then(response => response.json())
+            .then(data => {console.log("d");this.setState({
+
+                data: data
+
+            })})
+            .catch((e) => console.log(e));
+    };
+
+
+
+
+
+
     render() {
+        console.log(this.props.page);
+        let num=this.props.match.params.number;
         return(
+
             <div className="container page3">
                 <div className="">
                     <h1><span className="about">How to get Teudat zeut?</span></h1>
@@ -23,24 +62,20 @@ class Page3 extends React.Component{
                             allowFullScreen></iframe>
                 </div>
                 <div className="row row1 offset-1 col-10 offset-1">
-                    <div className="col-7 text">
+                    <div className=" text">
                         <h3 className="step">
-                            Step 1
+                            Step {num}
                         </h3>
                         <h4 className="step2">
-                            Teudat Zeut
+                            {this.state.data && this.state.data.steps[num-1].title}
                         </h4>
                         <p className="blocks">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto error fuga, incidunt
-                            ipsa quae
-                            sequi. Accusamus aliquid aspernatur assumenda est inventore quaerat quidem suscipit tenetur?
-                            Debitis
-                            nihil odit similique! Ipsam.
+                            {this.state.data && this.state.data.steps[num-1].description}
                         </p>
                     </div>
                 </div>
                 <div className="d-flex justify-content-center clip">
-                    <img src="clip-done@2x.png"/>
+                    <img src={require("../media/clip-done@2x.png")}/>
                 </div>
                 <div className="row row1 offset-1 col-10 offset-1 ">
                     <div className="offset-5 col-7 text2">
@@ -70,4 +105,4 @@ class Page3 extends React.Component{
         );
     }
 }
-export default Page3;
+export default withRouter(How);

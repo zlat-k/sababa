@@ -9,6 +9,9 @@ Dropdown{
     color: white;
     font-size: 16px;
 }
+.dropdown-buton:active, .dropdown-buton:focus, .dropdown-buton:visited, .dropdown-buton:hover {
+    outline: none !important;
+}
 .dropdown-state{
     position: relative;
 }

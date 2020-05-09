@@ -47,3 +47,6 @@
 .btn-success{
     background-color: #906FDA;
 }
+.blocks{
+    display: inline-block;
+}

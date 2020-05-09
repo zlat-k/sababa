@@ -1,11 +1,11 @@
 import React, {Component} from 'react';
 import Mains from "./main/main";
-import AboutShort from "./page1/AboutShort";
-import AboutFull from "./page2/AboutFull";
-import Page3 from "./page3/page3";
-import Page4 from "./page4/page4";
-import Page6 from "./page6/page6";
-import Page7 from "./page7/page7";
+import AboutShort from "./about-short/AboutShort";
+import AboutFull from "./about-full/AboutFull";
+import How from "./how-to/how";
+import HowToGet from "./how-to-get/how-to-get";
+import Blog from "./blog/Blog";
+import Page7 from "./post-comment/post-comment";
 import { Switch, Route, Redirect } from 'react-router-dom';
 
 
@@ -16,12 +16,12 @@ class Container extends Component {
             <Switch>
                 <Redirect exact from='/' to='/en' />
                 <Route exact path='/:lang' component={Mains}/>
-                <Route path='/:lang/About' render={AboutShort}/>
-                <Route path='/:lang/About-f' component={AboutFull}/>
-                <Route path='/:lang/page3' component={Page3}/>
-                <Route path='/:lang/page4' component={Page4}/>
-                <Route path='/:lang/page6' component={Page6}/>
-                <Route path='/:lang/page7' component={Page7}/>
+                <Route path='/:lang/About' exact render={AboutShort}/>
+                <Route path='/:lang/About-full' component={AboutFull}/>
+                <Route path='/:lang/About/:number' component={How}/>
+                <Route path='/:lang/How-to-get' component={HowToGet}/>
+                <Route path='/:lang/Blog' component={Blog}/>
+                <Route path='/:lang/post-comments' component={Page7}/>
             </Switch>
 
         );

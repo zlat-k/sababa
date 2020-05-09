@@ -1,7 +1,7 @@
 import React from "react";
-import './page4.css'
+import './how-to-get.css'
 
-class Page4 extends React.Component{
+class HowToGet extends React.Component{
     render() {
         return(
             <div className="container page4">
@@ -188,4 +188,4 @@ class Page4 extends React.Component{
         );
     }
 }
-export default Page4;
+export default HowToGet;

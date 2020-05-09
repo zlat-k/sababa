@@ -1,5 +1,6 @@
 import React from "react";
 import './main.css'
+import {Link} from "react-router-dom";
 
 class Mains extends React.Component {
     render() {
@@ -22,9 +23,12 @@ class Mains extends React.Component {
                     </div>
                     <div className=" row buttons">
                         <div>
+                            <Link to={`/${this.props.match.params.lang}/About`}>
                             <button type="button" className="btn btn-primary btn1">
                                 Know More
                             </button>
+                            </Link>
+
                         </div>
                     </div>
                 </div>

@@ -15,6 +15,10 @@
     color: white;
 }
 
+.footer{
+    padding-top: 30px;
+}
+
 footer li {
     list-style-type: none;
     margin-top: 5px;

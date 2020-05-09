@@ -1,7 +1,7 @@
 import React from "react";
-import './page7.css';
+import './post-comment.css';
 import {withRouter} from "react-router-dom"
-class Page7 extends React.Component{
+class PostComment extends React.Component{
     render() {
         return(
             <div className="container page7">
@@ -155,4 +155,4 @@ class Page7 extends React.Component{
         );
     }
 }
-export default withRouter(Page7);
+export default withRouter(PostComment);
